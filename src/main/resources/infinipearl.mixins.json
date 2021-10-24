@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "me.voidxwalker.infinipearl.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "EnderPearlEntityMixin",
+    "EnderPearlItemMixin",
+    "ServerPlayerEntityMixin",
+    "ShapelessRecipeMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

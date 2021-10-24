@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "infinipearl",
+  "version": "${version}",
+  "name": "InfiniPearl",
+  "description": "A pearl with infinite usages",
+  "authors": [
+    "Void_X_Walker"
+  ],
+  "contributors": [
+    "DuncanRuns"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/infinipearl/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.voidxwalker.infinipearl.InfiniPearl"
+    ],
+    "client": [],
+    "server": []
+  },
+  "mixins": [
+    "infinipearl.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.10.7"
+  }
+}
